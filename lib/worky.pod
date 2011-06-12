@@ -1,0 +1,42 @@
+=encoding utf8
+
+=head1 NAME
+
+worky - For when your code no worky
+
+=head1 SYNOPSIS
+
+    {
+        no worky;
+
+        # failing code here
+    }
+
+=head1 DESCRIPTION
+
+When your code no worky, just say so.
+
+=head1 SEE ALSO
+
+=over
+
+=item *
+
+L<orz>
+
+=back
+
+=head1 AUTHOR
+
+Ingy döt Net <ingy@ingy.net>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2006, 2011. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
+
+=cut

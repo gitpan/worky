@@ -1,14 +1,29 @@
-abstract: For when your code no worky
-author: "Ingy d\xC3\xB6t Net <ingy@cpan.org>"
+---
+abstract: 'For when your code no worky'
+author:
+  - 'Ingy döt Net <ingy@ingy.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: Module::Install version 0.61
+generated_by: 'Module::Install version 1.01'
 license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: worky
 name: worky
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
-  orz: 0.12
-  perl: 5.6.1
-version: 0.10
+requires:
+  Filter::Util::Call: 0
+  orz: 0.13
+  perl: 5.8.3
+resources:
+  homepage: http://github.com/ingydotnet/worky-pm/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/ingydotnet/worky-pm.git
+version: 0.11
