@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "For when your code no worky",
-  "AUTHOR" => "Ingy d\x{f6}t Net <you\@your.name>",
+  "AUTHOR" => "Ingy d\x{f6}t Net <ingy\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "orz" => "0.14"
   },
-  "VERSION" => "0.12",
+  "VERSION" => "0.14",
   "test" => {
     "TESTS" => "t/*.t"
   }
