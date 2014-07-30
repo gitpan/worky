@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/worky-pm/issues
   homepage: https://github.com/ingydotnet/worky-pm
   repository: https://github.com/ingydotnet/worky-pm.git
-version: '0.14'
+version: '0.15'
