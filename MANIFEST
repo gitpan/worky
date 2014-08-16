@@ -12,7 +12,6 @@ inc/Test/Base.pm
 inc/Test/Base/Filter.pm
 lib/worky.pm
 lib/worky.pod
-t/000-compile-modules.t
 t/compile.t
 t/lib/Testworky.pm
 t/release-pod-syntax.t
